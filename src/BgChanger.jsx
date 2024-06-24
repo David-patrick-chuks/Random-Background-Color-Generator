@@ -21,6 +21,7 @@ export default function BgChanger({ BtnTitle }) {
     color: "white",
     fontSize: "20px",
     fontWeight: "bold",
+    // backgroundColor: "red",
     // width: "300px",
   };
 
