@@ -21,7 +21,7 @@ export default function BgChanger({ BtnTitle }) {
     color: "white",
     fontSize: "20px",
     fontWeight: "bold",
-    width: "500px",
+    // width: "300px",
   };
 
     const [BgColor, SetBgColor] = useState("rgb(237,165,54)")
