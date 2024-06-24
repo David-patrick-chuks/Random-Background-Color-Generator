@@ -10,9 +10,9 @@ export default function BgChanger({ BtnTitle }) {
 
     
   const marqueeTextData = [
-    { id: 1, text: "Random Background Generator Using React.Js" },
-    { id: 2, text: "Random Background Generator Using React.Js" },
-    { id: 3, text: "Random Background Generator Using React.Js" },
+    { id: 1, text: "Random Background Generator Using React.Js." },
+    { id: 2, text: "Random Background Generator Using React.Js." },
+    { id: 3, text: "Random Background Generator Using React.Js." },
     // ... more text data
   ];
 
