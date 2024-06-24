@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 // import { Marquee } from 'react-fast-marquee'
-import { Typewriter } from 'react-simple-typewriter'
+// import { Typewriter } from 'react-simple-typewriter'
 // import MarqueeText from "react-marquee-text"
 
 import { MarqueeText } from "react-marquee-component";
@@ -73,7 +73,7 @@ export default function BgChanger({ BtnTitle }) {
                     <p className='ColorCode' onClick={handleColorClick}>{BgColor}</p>
                 </div>
 
-                <span style={{ fontSize: "18px", color: 'Black', fontWeight: 'bold', opacity: 0.5 }}>
+                {/* <span style={{ fontSize: "18px", color: 'Black', fontWeight: 'bold', opacity: 0.5 }}>
                     <Typewriter
                         words={['click on the color code to copy']}
                         loop={200}
@@ -83,7 +83,7 @@ export default function BgChanger({ BtnTitle }) {
                         deleteSpeed={50}
                         delaySpeed={1000}
                     />
-                </span>
+                </span> */}
             </div>
         </>
     )
