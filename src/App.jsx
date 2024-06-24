@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import BgChanger from './BgChanger'
 
 function App() {
